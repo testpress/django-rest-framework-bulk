@@ -4,7 +4,7 @@ import json
 from django.core.urlresolvers import reverse
 from django.test import TestCase
 from django.test.client import RequestFactory
-from rest_framework import status
+from rest_framework3 import status
 
 from .simple_app.models import SimpleModel
 from .simple_app.views import FilteredBulkAPIView, SimpleBulkAPIView

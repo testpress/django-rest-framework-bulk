@@ -1,6 +1,6 @@
 from __future__ import unicode_literals, print_function
 import copy
-from rest_framework.routers import DefaultRouter, SimpleRouter
+from rest_framework3.routers import DefaultRouter, SimpleRouter
 
 
 __all__ = [

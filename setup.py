@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import os
 from setuptools import find_packages, setup
 
-from rest_framework_bulk import __version__, __author__
+from rest_framework_bulk3 import __version__, __author__
 
 
 def read(fname):
@@ -27,7 +27,7 @@ test_requirements = (
 )
 
 setup(
-    name='djangorestframework-bulk',
+    name='djangorestframework-bulk3',
     version=__version__,
     author=__author__,
     author_email='miroslav@miki725.com',

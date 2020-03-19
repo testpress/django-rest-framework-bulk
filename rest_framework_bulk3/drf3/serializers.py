@@ -1,8 +1,8 @@
 from __future__ import print_function, unicode_literals
 import inspect
 
-from rest_framework.exceptions import ValidationError
-from rest_framework.serializers import ListSerializer
+from rest_framework3.exceptions import ValidationError
+from rest_framework3.serializers import ListSerializer
 
 
 __all__ = [

@@ -15,12 +15,12 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework_bulk',
-    'rest_framework_bulk.tests.simple_app',
+    'rest_framework3',
+    'rest_framework_bulk3',
+    'rest_framework_bulk3.tests.simple_app',
 )
 
 STATIC_URL = '/static/'
 SECRET_KEY = 'foo'
 
-ROOT_URLCONF = 'rest_framework_bulk.tests.simple_app.urls'
+ROOT_URLCONF = 'rest_framework_bulk3.tests.simple_app.urls'

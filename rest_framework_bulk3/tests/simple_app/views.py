@@ -1,5 +1,5 @@
 from __future__ import unicode_literals, print_function
-from rest_framework_bulk import generics
+from rest_framework_bulk3 import generics
 
 from .models import SimpleModel
 from .serializers import SimpleSerializer

@@ -1,7 +1,7 @@
 from __future__ import print_function, unicode_literals
-from rest_framework import status
-from rest_framework.mixins import CreateModelMixin
-from rest_framework.response import Response
+from rest_framework3 import status
+from rest_framework3.mixins import CreateModelMixin
+from rest_framework3.response import Response
 
 
 __all__ = [
